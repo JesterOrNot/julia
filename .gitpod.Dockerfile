@@ -1,5 +1,5 @@
 FROM gitpod/workspace-full
-
+USER root
 RUN set -eux; \
 apt-get update; \
 apt-get install -y --no-install-recommends \
